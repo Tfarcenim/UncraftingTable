@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "tfar.uncraftingtable.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "uncraftingtable.refmap.json",
+  "mixins": [
+    "ShapedRecipeAccessor",
+    "ShapelessRecipeAccessor"
+  ],
+  "client": [
+    "RecipeManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
