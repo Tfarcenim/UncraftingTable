@@ -4,11 +4,9 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "uncraftingtable.refmap.json",
   "mixins": [
-    "ShapedRecipeAccessor",
-    "ShapelessRecipeAccessor"
+    "RecipeManagerMixin"
   ],
   "client": [
-    "RecipeManagerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

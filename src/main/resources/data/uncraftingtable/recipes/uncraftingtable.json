@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_blocks"
+    },
+    "X": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "item": "uncraftingtable:uncrafting_table"
+  }
+}
